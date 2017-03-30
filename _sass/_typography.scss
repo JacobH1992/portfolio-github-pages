@@ -1,0 +1,110 @@
+$font-weight-regular: 300;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+$body-line-height: 1.5;
+$header-line-height: 1.25;
+
+$h1-font-sizes: (
+  null  : 1.5rem,   //24px
+  small : 1.5rem,   //24px
+  medium: 2rem,     //32px
+  large : 2.5rem,   //40px
+  xlarge: 3.25rem   //52px
+);
+
+$p-h2-font-sizes: (
+  null  : 1.125rem, //18px
+  small : 1.125rem, //18px
+  medium: 1.25rem,  //20px
+  large : 1.375rem, //22px
+  xlarge: 1.5rem    //24px
+);
+
+$h3-font-sizes: (
+  null  : 0.875rem, //14px
+);
+
+h1, h2, h3, h4 {
+	line-height: $header-line-height;
+}
+
+h1 {
+	@include font-size($h1-font-sizes);
+	font-weight: $font-weight-medium;
+	margin-bottom: 3rem;
+}
+
+h2, p {
+	@include font-size($p-h2-font-sizes);
+	font-weight: $font-weight-regular;
+}
+
+h3 {
+    @include fill-parent();
+	padding-top: 8px;
+	@include font-size($h3-font-sizes);
+	font-weight: $font-weight-regular;
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+	color: $white-secondary;
+	margin-bottom: 2rem;
+	@include mq(large) {
+		@include span-columns(2);
+		@include shift(1);
+	}
+}
+
+p {
+	margin-bottom: 2rem;
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+	&.small {
+		font-size: 1rem;
+	}
+	&.large {
+		margin-bottom: 2rem;
+		@include font-size($h1-font-sizes);
+		font-weight: $font-weight-medium;
+		line-height: $header-line-height;
+	}
+}
+
+
+a {
+	font-size: inherit;
+	@include font-size($p-h2-font-sizes);
+	color: $yellow-mid;
+	border-bottom: 1px solid $yellow-mid;
+	font-weight: inherit;
+	text-decoration: none;
+	&:hover, &:focus {
+		color: $yellow-light;
+		border-bottom: 1px solid $yellow-light;
+	}
+	&.underline {
+		position: relative;
+	}
+}
+
+.underline {
+  &::after {
+    width: 0%;
+    height: 3px;
+    display: block;
+    background-color: $white;
+    content: '';
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transition: left 0.2s cubic-bezier(0.215, 0.61, 0.355, 1), width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  &:hover, &:focus {
+    &::after {
+      width: 100%;
+      left: 0;
+      content: '';
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<header role="banner">
+      <nav>
+        <!-- <a href="{{ "/" | relative_url}}"><span class="logo">JH</span></a> -->
+        <a href="{{ "/" | relative_url}}">
+          <div class="logo">
+            <div class="logo-text">JH</div>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+        <div class="nav-links">
+          <a class="nav-link nav-link-home underline" href="{{ "/" | relative_url}}">Home</a>{% for my_page in site.pages %}{% if my_page.title %}
+          <a class="nav-link underline" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>{% endif %}{% endfor %}
+        </div>
+      </nav>
+    </header>

@@ -1,0 +1,33 @@
+.project-header {
+	
+}
+
+.project-content {
+	@include outer-container;
+	  	img {
+	  		display: block;
+	  		width: 100%;
+	  	}
+	  	h1, h2, p {
+    		@include fill-parent();
+	  	  	@include mq(large) {
+	    		@include span-columns(8);
+			    @include shift(1);
+	  		}
+	  	}
+	  	.img {
+	  		@include span-columns(12);
+	  		margin: 64px 0 32px;
+	  	}
+	}
+
+.content {
+	clear: both;
+}
+
+.content-p {
+  @include fill-parent();
+  @include mq(large) {
+    @include span-columns(8);
+  }
+}

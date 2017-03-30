@@ -1,0 +1,43 @@
+.home-work-link {
+  margin-top: 1rem;
+  display: inline-block;
+  float: right;
+  font-weight: $font-weight-regular;
+}
+
+.home-cta-wrapper {
+  background: -webkit-linear-gradient(left, $blue-mid 50%, $blue-mid 50%);
+  background: -o-linear-gradient(left, $blue-mid 50%, $blue-mid 50%);
+  background: linear-gradient(to right, $blue-mid 50%, $blue-mid 50%);
+  @include mq(large) {
+    background: -webkit-linear-gradient(left, $blue-mid 50%, transparent 50%);
+    background: -o-linear-gradient(left, $blue-mid 50%, transparent 50%);
+    background: linear-gradient(to right, $blue-mid 50%, transparent 50%);
+  }
+}
+
+.home-cta {
+  @include row();
+  @include pad(64px 0);
+  background: $blue-mid;
+}
+
+.home-cta-content {
+  @include fill-parent();
+  @include mq(large) {
+    @include span-columns(10);
+    @include shift(1);
+  }
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  background: $red-mid;
+  float: left;
+  margin-right: 16px;
+  border-radius: 50%;
+  &:hover {
+    background: $red-light;
+  }
+}
