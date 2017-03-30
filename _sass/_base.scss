@@ -134,8 +134,8 @@ footer {
 
 .logo span {
 	position: absolute;
-	top: 34px;
-	left: 34px;
+	top: 0px;
+	left: 0px;
 	background-color: rgba(45,156,219,.75);
 	transition: all .3s;
 	&:nth-child(2) {
@@ -181,13 +181,13 @@ footer {
 }
 
 @keyframes rotate-cw {
-	0% { transform: translate(-50%,-50%) rotateZ(0deg); -webkit-transform: translate(-50%,-50%) rotateZ(0deg); }
-	100% { transform: translate(-50%,-50%) rotateZ(360deg); -webkit-transform: translate(-50%,-50%) rotateZ(360deg); }
+	0% { transform: rotateZ(0deg); -webkit-transform: rotateZ(0deg); }
+	100% { transform:rotateZ(360deg); -webkit-transform: rotateZ(360deg); }
 }
 
 @keyframes rotate-ccw {
-	0% { transform: translate(-50%,-50%) rotateZ(0deg); -webkit-transform: translate(-50%,-50%) rotateZ(0deg); }
-	100% { transform: translate(-50%,-50%) rotateZ(-360deg); -webkit-transform: translate(-50%,-50%) rotateZ(-360deg); }
+	0% { transform: rotateZ(0deg); -webkit-transform: rotateZ(0deg); }
+	100% { transform: rotateZ(-360deg); -webkit-transform: rotateZ(-360deg); }
 }
 
 @function randRadius() {
