@@ -2,8 +2,10 @@
 layout: default
 ---
 
-<div class="project-bg-gradient"></div>
-<div class="project-bg" style="background: url('../assets/img/cover/{{ page.cover-image | escape }}') no-repeat top; background-size: cover;"></div>
+<div class="bg-wrapper">
+  <div class="bg-gradient"></div>
+  <div class="bg-image" style="background: url('../assets/img/cover/{{ page.cover-image | escape }}') no-repeat center; background-size: cover;"></div>
+</div>
 
 <div class="project" itemscope itemtype="http://schema.org/BlogPosting">
 

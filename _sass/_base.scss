@@ -219,6 +219,16 @@ footer {
 	100% { border-bottom-right-radius: randRadius(); }
 }
 
+.cv {
+	margin-top: 0rem;
+	@include span-columns(12);
+	@include mq(large) {
+		@include span-columns(8);
+		@include shift(3);
+		margin-top: -3rem;
+	}
+}
+
 @import "pages/home";
 @import "pages/work";
 @import "pages/project"
