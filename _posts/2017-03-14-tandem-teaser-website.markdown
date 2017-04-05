@@ -8,23 +8,17 @@ tags: [Design, Web, Code]
 cover-image: tandem-teaser-website.jpg
 ---
 
-
-<!-- ![Alt tag](../assets/img/tdm-teaser-website/tdm-teaser-desktop.jpg) -->
-<!-- <hr><br><br> -->
-
 ## A new brand
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper blandit volutpat. Quisque ac velit commodo, venenatis massa vel, finibus odio. Donec est eros, ultricies id justo eu, rhoncus rhoncus ex. This is the description with a [link](/link/) too.
 
 Wolf Ollins sessions
 
-Testing the brand - workshops
+![Inline image](../assets/img/cover/tandem-teaser-website.jpg){: .revealBottom }
+<!-- <div class="img"><img src="../assets/img/cover/tandem-teaser-website.jpg" alt=""></div> -->
 
-Logo Drawing
 
-Fonts - Logos - Icons - Colour Palette
-
-<!-- ![Alt tag](../assets/img/tdm-teaser-website/tdm-teaser-desktop.jpg) -->
+Testing the brand - workshops - Logo Drawing -Fonts - Logos - Icons - Colour Palette
 
 ## Teaser Website
 
@@ -32,11 +26,16 @@ One of the first things we wanted to do was announce Tandem to the world and all
 
 All design, interaction and build of the website was carried out by myself and [Christoph Backoefer](http://backoefer.com).
 
-![Alt tag](../assets/img/tdm-teaser-website/tdm-teaser-desktop.jpg)
+<!-- ![Alt tag](../assets/img/tdm-teaser-website/tdm-teaser-desktop.jpg) -->
 
-<!-- <div class="img"><img src="../assets/img/tdm-teaser-website/tdm-teaser-desktop.jpg" alt=""></div> -->
+<div class="img revealBottom"><img src="../assets/img/tdm-teaser-website/tdm-teaser-desktop.jpg" alt=""></div>
 
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper blandit volutpat. Quisque ac velit commodo, venenatis massa vel, finibus odio. Donec est eros, ultricies id justo eu, rhoncus rhoncus ex. This is the description with a [link](/link/) too.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper blandit volutpat. Quisque ac velit commodo, venenatis massa vel, finibus odio. Donec est eros, ultricies id justo eu, rhoncus rhoncus ex. This is the description with a [link](/link/) too.
 
+## Client
 
-[This is link text](/link/) -->
+Tandem
+
+## Role
+
+Designer

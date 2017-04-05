@@ -2,13 +2,17 @@ window.sr = ScrollReveal();
 
 sr.reveal('.revealBottom', { 
 	duration: 600,
-	delay: 200
+	origin: 'bottom',
+	viewFactor: 0.2,
+	scale: 0.98
 });
 
-sr.reveal('.revealTop', { 
-	origin: 'top',
+sr.reveal('.fadeIn', { 
 	duration: 500,
 	delay: 500,
+	distance: '0',
+	viewFactor: 0,
+	scale: 0
 });
 
 sr.reveal('.revealLeft', { 
