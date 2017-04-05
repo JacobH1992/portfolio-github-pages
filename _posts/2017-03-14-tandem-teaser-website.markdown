@@ -20,7 +20,7 @@ Testing the brand - workshops - Logo Drawing -Fonts - Logos - Icons - Colour Pal
 
 ## Teaser Website
 
-One of the first things we wanted to do was announce Tandem to the world and allowed us to attract new [Co-Founders](/) that were engaged in helping us achieve our vision. We decided a brand teaser landing page would help with this.
+One of the first things we wanted to do was announce Tandem to the world. We also wanted to attract more people to the [Co-Founders](/) community - so we had more people that were engaged in helping us achieve our vision. We decided a brand teaser landing page would help achieve this.
 
 All design, interaction and build of the website was carried out by myself and [Christoph Backoefer](http://backoefer.com).
 
