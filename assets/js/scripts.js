@@ -2,6 +2,7 @@ window.sr = ScrollReveal();
 
 sr.reveal('.revealBottom', { 
 	duration: 600,
+	delay: 100,
 	origin: 'bottom',
 	viewFactor: 0.2,
 	scale: 0.98
