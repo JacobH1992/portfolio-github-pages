@@ -8,7 +8,11 @@ tags: [Design, Web, Code]
 cover-image: tandem-teaser-website.jpg
 ---
 
-## Building a brand
+
+<!-- ![Alt tag](../assets/img/tdm-teaser-website/tdm-teaser-desktop.jpg) -->
+<!-- <hr><br><br> -->
+
+## A new brand
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper blandit volutpat. Quisque ac velit commodo, venenatis massa vel, finibus odio. Donec est eros, ultricies id justo eu, rhoncus rhoncus ex. This is the description with a [link](/link/) too.
 
@@ -28,9 +32,9 @@ One of the first things we wanted to do was announce Tandem to the world and all
 
 All design, interaction and build of the website was carried out by myself and [Christoph Backoefer](http://backoefer.com).
 
-<!-- ![Alt tag](../assets/img/tdm-teaser-website/tdm-teaser-desktop.jpg) -->
+![Alt tag](../assets/img/tdm-teaser-website/tdm-teaser-desktop.jpg)
 
-<div class="img"><img src="../assets/img/tdm-teaser-website/tdm-teaser-desktop.jpg" alt=""></div>
+<!-- <div class="img"><img src="../assets/img/tdm-teaser-website/tdm-teaser-desktop.jpg" alt=""></div> -->
 
 <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper blandit volutpat. Quisque ac velit commodo, venenatis massa vel, finibus odio. Donec est eros, ultricies id justo eu, rhoncus rhoncus ex. This is the description with a [link](/link/) too.
 
