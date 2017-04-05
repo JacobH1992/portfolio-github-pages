@@ -30,10 +30,10 @@ All design, interaction and build of the website was carried out by myself and [
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper blandit volutpat. Quisque ac velit commodo, venenatis massa vel, finibus odio. Donec est eros, ultricies id justo eu, rhoncus rhoncus ex. This is the description with a [link](/link/) too.
 
-## Client
+<!-- ## Client
 
 Tandem
 
 ## Role
 
-Designer
+Designer -->

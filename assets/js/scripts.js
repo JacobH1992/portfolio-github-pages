@@ -23,7 +23,6 @@ sr.reveal('.revealLeft', {
 	scale: 0
 });
 
-
 // reveal box effect
 
 $('.revealedBox').each(function(i){ 
