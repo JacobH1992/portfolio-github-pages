@@ -10,9 +10,7 @@ cover-image: tandem-teaser-website.jpg
 
 ## A new brand
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper blandit volutpat. Quisque ac velit commodo, venenatis massa vel, finibus odio. Donec est eros, ultricies id justo eu, rhoncus rhoncus ex. This is the description with a [link](/link/) too.
-
-Wolf Ollins sessions
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper blandit volutpat. Quisque ac velit commodo, venenatis massa vel, finibus odio. Donec est eros, ultricies id justo eu, rhoncus rhoncus ex. This is the description with a [link](/link/) too. Wolf Ollins sessions etc.
 
 ![Inline image](../assets/img/cover/tandem-teaser-website.jpg){: .revealBottom }
 <!-- <div class="img"><img src="../assets/img/cover/tandem-teaser-website.jpg" alt=""></div> -->
