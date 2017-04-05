@@ -1,6 +1,7 @@
 ---
 layout: project
 title:  "Tandem Brand & Teaser"
+subtitle: "A different brand for a different kind of bank"
 date:   2017-03-14 09:31:00 +0000
 client: [Tandem]
 roles: [Designer]
@@ -8,7 +9,7 @@ tags: [Design, Web, Code]
 cover-image: tandem-teaser-website.jpg
 ---
 
-## A new brand
+### A new brand
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper blandit volutpat. Quisque ac velit commodo, venenatis massa vel, finibus odio. Donec est eros, ultricies id justo eu, rhoncus rhoncus ex. This is the description with a [link](/link/) too. Wolf Ollins sessions etc.
 
@@ -18,7 +19,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper bland
 
 Testing the brand - workshops - Logo Drawing -Fonts - Logos - Icons - Colour Palette
 
-## Teaser Website
+### Teaser Website
 
 One of the first things we wanted to do was announce Tandem to the world. We also wanted to attract more people to the [Co-Founders](/) community - so we had more people that were engaged in helping us achieve our vision. We decided a brand teaser landing page would help achieve this.
 

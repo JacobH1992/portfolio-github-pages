@@ -10,7 +10,7 @@ sr.reveal('.revealBottom', {
 
 sr.reveal('.fadeIn', { 
 	duration: 500,
-	delay: 500,
+	delay: 300,
 	distance: '0',
 	viewFactor: 0,
 	scale: 0

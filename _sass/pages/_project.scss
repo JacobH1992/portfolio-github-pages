@@ -31,10 +31,11 @@
 }
 
 .project-header {
-	h1 {
-		@include mq(large) {	
-			margin-bottom: 6rem;
-  		}
+	h2 {
+		margin-bottom: 4rem;
+		@include mq(large) {
+			margin-bottom: 6rem;	
+		}
 	}
 }
 
@@ -47,7 +48,7 @@
 	  		width: 100%;
 	  		margin: 1rem 0;
 	  	}
-	  	p {
+	  	p{
     		@include fill-parent();
 			margin-bottom: 1.5rem;
 		    // margin-top: 0rem;
@@ -58,7 +59,7 @@
     			margin-bottom: 3.5rem; // 2rem + -1.5rem
 	  		}
 	  	}
-		h2 {
+		h3 {
 		    @include fill-parent();
 			margin-top: 4rem;
 			margin-bottom: 2rem;

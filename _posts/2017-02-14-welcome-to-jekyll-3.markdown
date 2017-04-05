@@ -1,6 +1,7 @@
 ---
 layout: project
 title:  "TurnOut App"
+subtitle: "Subtitle"
 date:   2017-02-11 13:39:13 +0000
 tags: jekyll update
 cover-image: turn-out-app.png
