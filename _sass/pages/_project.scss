@@ -7,6 +7,7 @@
 	  	img {
 	  		display: block;
 	  		width: 100%;
+	  		margin-bottom: 1rem;
 	  	}
 	  	h1, h2, p {
     		@include fill-parent();
@@ -15,9 +16,23 @@
 			    @include shift(1);
 	  		}
 	  	}
+		h2 {
+		    @include fill-parent();
+			padding-top: 8px;
+			@include font-size($h3-font-sizes);
+			font-weight: $font-weight-regular;
+			letter-spacing: 0.1rem;
+			text-transform: uppercase;
+			color: $white-secondary;
+			margin-bottom: 2rem;
+			@include mq(large) {
+				@include span-columns(2);
+				@include shift(1);
+			}
+		}
 	  	.img {
 	  		@include span-columns(12);
-	  		margin: 64px 0 32px;
+	  		margin: 2rem 0;
 	  	}
 	}
 
