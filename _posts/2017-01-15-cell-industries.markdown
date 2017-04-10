@@ -1,9 +1,9 @@
 ---
 layout: project
-title:  "Test post"
+title:  "Cell Industries"
 date:   2017-01-14 13:39:13 +0000
 tags: jekyll update
-cover-image: 
+cover-image: cell-industries.jpg 
 ---
 
 Content here blah blah ... 

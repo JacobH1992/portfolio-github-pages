@@ -96,6 +96,30 @@
 				margin-bottom: 4rem;
 			}
 	  	}
+		blockquote {
+			font-style: italic;
+			margin: 0;
+		}
+
+		blockquote p {
+			padding: 3rem 3rem 0 3rem;
+			margin-bottom: 0;
+			background: $blue-shade;
+			&:before, &:after {
+				content: ' " ';
+			}
+		}
+
+		.p-quote {
+			padding: 1rem 3rem 3rem 3rem;
+			margin-top: 0;
+			font-size: 1rem;
+			color: $white-secondary;
+			background: $blue-shade;
+			&:before {
+				content: '— ';
+			}
+		}
 	}
 
 .content {

@@ -12,10 +12,11 @@
 
 .work-post-wrapper {
 	@include span-columns(12);
-	margin-bottom: 2rem;
   	position: relative;
-  	overflow: hidden;
 	margin-top: -12%;
+	margin-bottom: 2rem;
+  	overflow: hidden;
+	background: $blue-dark;
 	transition: all .3s;
 	-webkit-transition: all .3s;
   	.work-title {
