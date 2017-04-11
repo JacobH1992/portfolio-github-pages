@@ -8,17 +8,19 @@ tags: [Design, Web, Code]
 cover-image: tandem-teaser-website.jpg
 ---
 
-### A new brand
+### Starting out
 
-As an one of the first employees of Tandem I was involved in helping create and iterate a new brand. Prior to becoming 'Tandem' we operated under the guise of '#agoodbank' - a non-brand that would allow us to run discovery workshops, interviews and create a community to gain a greater understanding of what people really needed from a bank. 
+As an one of the first employees of Tandem I was involved in helping create and iterate a new brand. We started with a single question, "What is a good bank?", and a desire to reinvent banking and improve people's lives.
 
-The people that came to these workshops formed the beginnings of a community of people we called 'Co-Founders' - a group of ordinary, un-banky people who help shape and build the kind of bank they want to be with.
+For the first few months we operated under the guise of '#agoodbank', a non-brand that would be used to gain a greater understanding of what people really needed from a bank. We ran discovery workshops, interviews and created a community of people we called 'Co-Founders' — a group of ordinary, un-banky people who would help shape and build the kind of bank they wanted.
 
 <div class="img revealBottom"><img src="../assets/img/tdm-teaser-website/tdm-agb-app.jpg" alt="#agoodbank app"></div>
 
-We even created an app to allow them to see what we were working on and for us to test ideas and gather feedback.
+Anyone could become a Co-Founder and each one got a share in the bank and their own membership card. We even created an app to allow Co-Founders to see what we were working on and for us to test ideas and gather feedback.
 
-After a few months of discovery work we set about defining a brand for the new bank. For six months I was involved in multiple workshops and testing sessions with [Wolf Ollins](http://www.wolffolins.com/){:target="_blank"} and other Tandem employees. We explored multiple names and directions before finding 'Tandem'.
+### A new brand
+
+For the next six months, we set about defining the brand for the new bank. I was involved in and help facilitate numerous workshops, Co-Founder events and testing sessions with [Wolf Ollins](http://www.wolffolins.com/){:target="_blank"} and other Tandem employees. We explored multiple names and directions before finding 'Tandem'.
 
 <div class="img no-mbtm revealBottom"><img src="../assets/img/tdm-teaser-website/tdm-teaser-workshops.jpg" alt="Brand workshops with Wolf Ollins"></div>
 <div class="img revealBottom"><img src="../assets/img/tdm-teaser-website/tdm-teaser-logos.jpg" alt="Tandem logo sketches"></div>
@@ -39,13 +41,13 @@ The brand expression was born from the collaboration with Co-Founders. This is e
 
 ### Teaser Website
 
-Eager to show off our new brand, we decided to design and build a Tandem teaser website. The sites main aim was to act as a destination for people who wanted to join the Co-Founder community. It also had to demonstrate that Tandem was a bit different. Something new and refreshing for the world of banking.
+Eager to show off our new brand, we decided to design and build a responsive teaser website. The site's main aim was to act as a destination for people who wanted to join the Co-Founder community. It also had to demonstrate that Tandem was a bit different. Something new and refreshing for the world of banking.
 
 <div class="img revealBottom"><img src="../assets/img/tdm-teaser-website/tdm-teaser-postits.jpg" alt=""></div>
 
-One of the first ideas we had for the brand was to use the conjunction of 'AND', which was also present in the word 'TANDEM', to further reinforce the message of people coming together.
+One of the first ideas we had for the brand was to use the conjunction of 'AND', present in the word 'TANDEM', to further reinforce the message of people coming together.
 
-We designed and developing an animated photo grid. The grid generates a unique composition of Co-Founder photos for each visitor, with synced messaging and transitions, and allowed us to represent the diversity of the Co-Founder community. All of the images used on the site are of real members of the Co-Founder community.
+We designed and developed an animated photo grid. The grid generates a unique composition of Co-Founder photos for each visitor, with synced messaging and transitions, and allowed us to represent the diversity of the Co-Founder community. All of the images used on the site are of real members of the Co-Founder community.
 
 <div class="video-wrapper no-mbtm"><video class="video revealBottom" poster="https://thumbs.gfycat.com/OldCharmingEider-poster.jpg" autoplay="" muted="" loop="" title="">
 <source src="https://fat.gfycat.com/ThickOffensiveAltiplanochinchillamouse.webm" type="video/webm">
