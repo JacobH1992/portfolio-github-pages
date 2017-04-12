@@ -10,7 +10,7 @@ cover-image: tandem-teaser-website.jpg
 
 ### Starting out
 
-As an one of the first employees of Tandem I was involved in helping create and iterate a new brand. We started with a single question, "What is a good bank?", and a desire to reinvent banking and improve people's lives.
+As an one of the first employees of Tandem I was involved in helping create and iterate a new brand. We started with a single question, "What is a good bank?" and a desire to reinvent banking to improve people's lives.
 
 For the first few months we operated under the guise of '#agoodbank', a non-brand that would be used to gain a greater understanding of what people really needed from a bank. We ran discovery workshops, interviews and created a community of people we called 'Co-Founders' — a group of ordinary, un-banky people who would help shape and build the kind of bank they wanted.
 
