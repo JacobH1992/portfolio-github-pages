@@ -23,10 +23,40 @@ layout: default
 </div>
 
 <section>
+<!--   {% if page.next.url %}
+    <a class="project-prev" href="{{page.next.url | relative_url }}">{{page.next.title}}</a>
+  {% endif %}
   {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-  {% endif %}
-  {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-  {% endif %}
+    <a class="project-next" href="{{page.previous.url | relative_url }}">{{page.previous.title}}</a>
+  {% endif %} -->
+
+{% if page.next.url %}
+  <li class="work-post-wrapper scroll-animation revealedBox goLeft">
+    <div class="work-cover-image revealedBox-content">
+      <a href="{{ page.next.url | relative_url }}">
+        <div class="work-title" role="button">{{ page.next.title | escape }}</div>
+        <figure><img src="../assets/img/cover/{{ page.next.cover-image }}" alt=""></figure>
+      </a>
+    </div>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </li>
+{% endif %}
+{% if page.previous.url %}
+  <li class="work-post-wrapper scroll-animation revealedBox goLeft">
+    <div class="work-cover-image revealedBox-content">
+      <a href="{{ page.previous.url | relative_url }}">
+        <div class="work-title" role="button">{{ page.previous.title | escape }}</div>
+        <figure><img src="../assets/img/cover/{{ page.previous.cover-image }}" alt=""></figure>
+      </a>
+    </div>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </li>
+{% endif %}
+
 </section>
