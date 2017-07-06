@@ -10,7 +10,7 @@ cover-image: tandem-teaser-website.jpg
 
 ### Starting out
 
-As an one of the first employees of Tandem I was involved in helping create and iterate a new brand. We started with a single question, "What is a good bank?" and a desire to reinvent banking to improve people's lives.
+As one of the first employees of Tandem I was involved in helping create and iterate a new brand. We started with a single question, "What is a good bank?" and a desire to reinvent banking to improve people's lives.
 
 For the first few months we operated under the guise of '#agoodbank', a non-brand that would be used to gain a greater understanding of what people really needed from a bank. We ran discovery workshops, interviews and created a community of people we called 'Co-Founders' — a group of ordinary, un-banky people who would help shape and build the kind of bank they wanted.
 
@@ -20,12 +20,12 @@ Anyone could become a Co-Founder and each one got a share in the bank and their 
 
 ### A new brand
 
-For the next six months, we set about defining the brand for the new bank. I was involved in and help facilitate numerous workshops, Co-Founder events and testing sessions with [Wolf Ollins](http://www.wolffolins.com/){:target="_blank"} and other Tandem employees. We explored multiple names and directions before finding 'Tandem'.
+For the next six months, we set about defining the brand for the new bank. I was involved in and helped facilitate numerous workshops, Co-Founder events and testing sessions with [Wolff Olins](http://www.wolffolins.com/){:target="_blank"} and other Tandem employees. We explored multiple names and directions before finding 'Tandem'.
 
 <div class="img no-mbtm revealBottom"><img src="../assets/img/tdm-teaser-website/tdm-teaser-workshops.jpg" alt="Brand workshops with Wolf Ollins"></div>
 <div class="img revealBottom"><img src="../assets/img/tdm-teaser-website/tdm-teaser-logos.jpg" alt="Tandem logo sketches"></div>
 
-The output from working with Wolf Ollins was a 'minimal viable brand' and a set of guidelines that the Tandem team could take and evolve over time. The guidelines included brand principles, a logo, colour palette, typography, photography and iconography styles, TOV principles and user personas.
+The output from working with Wolff Olins was a 'minimal viable brand' and a set of guidelines that the Tandem team could take and evolve over time. The guidelines included brand principles, a logo, colour palette, typography, photography and iconography styles, TOV principles and user personas.
 
 <div class="img no-mbtm revealBottom"><img src="../assets/img/tdm-teaser-website/tdm-teaser-logo.jpg" alt="Tandem logo"></div>
 <div class="img revealBottom"><img src="../assets/img/tdm-teaser-website/tandem-teaser-guidelines.jpg" alt="Tandem guidelines"></div>
@@ -41,7 +41,7 @@ The brand expression was born from the collaboration with Co-Founders. This is e
 
 ### Teaser Website
 
-Eager to show off our new brand, we decided to design and build a responsive teaser website. The site's main aim was to act as a destination for people who wanted to join the Co-Founder community. It also had to demonstrate that Tandem was a bit different. Something new and refreshing for the world of banking.
+Eager to show off our new brand, we decided to design and build a responsive teaser website. The site's main aim was to act as a destination for people who wanted to join the Co-Founder community. It also had to demonstrate that Tandem was something new and refreshing for the world of banking.
 
 <div class="img revealBottom"><img src="../assets/img/tdm-teaser-website/tdm-teaser-postits.jpg" alt=""></div>
 
@@ -58,7 +58,7 @@ We designed and developed an animated photo grid. The grid generates a unique co
 
 <!-- <div class="img revealBottom"><img src="../assets/img/tdm-teaser-website/tdm-teaser-desktop.jpg" alt=""></div> -->
 
-The website was later expanded, with an about page and a blog being added. It was used for around 8 months and contributed to roughly 6,000 Co-Founder sign-ups. It also acted as a point of reference for the press or investors. It was also the first public display of the Tandem brand and successfully set us apart from our competition.
+The website was later expanded to include an about page and a blog. It was used for around 8 months and contributed to roughly 6,000 Co-Founder sign-ups. It also acted as a point of reference for the press or investors. It was the first public display of the Tandem brand, successfully setting us apart from our competition.
 
 <div class="img revealBottom"><img src="../assets/img/tdm-teaser-website/tdm-teaser-blog.jpg" alt=""></div>
 
