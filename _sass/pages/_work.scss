@@ -3,22 +3,25 @@
 	margin-top: 10%; // to offset -12% margin-top
 	padding-top: 4rem;
 	@include mq(medium) {
-		padding-top: 128px;
+		padding-top: 8rem;
 	}
 	@include mq(large) {
-		padding-top: 180px;
+		padding-top: 11.25rem;
 	}
 }
 
 .work-post-wrapper {
-	@include span-columns(12);
+	width: 100%;
+	position: relative;
 	margin-bottom: 2rem;
-  	position: relative;
-  	overflow: hidden;
-	margin-top: -12%;
+	overflow: hidden;
+	background: $blue-dark;
 	transition: all .3s;
 	-webkit-transition: all .3s;
-  	.work-title {
+	@include mq(medium) {
+		margin-top: -12%;
+	}
+	.work-title {
 		width: 100%;
 		padding: 24px 32px;
 		position: absolute;
@@ -49,7 +52,7 @@
 	}
 	&:nth-child(2n) { // to stack posts (masonry style)
 		margin-top: 0;
-		margin-bottom: 32px; 
+		margin-bottom: 32px;
 	}
 
 	@include mq(medium) {

@@ -6,8 +6,8 @@ $body-line-height: 1.5;
 $header-line-height: 1.25;
 
 $h1-font-sizes: (
-  null  : 1.5rem,   //24px
-  small : 1.5rem,   //24px
+  null  : 1.75rem,   //24px
+  small : 1.75rem,   //24px
   medium: 2rem,     //32px
   large : 2.5rem,   //40px
   xlarge: 3.25rem   //52px
@@ -32,7 +32,10 @@ h1, h2, h3, h4 {
 h1 {
 	@include font-size($h1-font-sizes);
 	font-weight: $font-weight-medium;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
+	@include mq(large) {
+		margin-bottom: 3rem;
+	}
 }
 
 h2, p {
@@ -42,7 +45,6 @@ h2, p {
 
 h3 {
     @include fill-parent();
-	padding-top: 8px;
 	@include font-size($h3-font-sizes);
 	font-weight: $font-weight-regular;
 	letter-spacing: 0.1rem;
@@ -50,6 +52,7 @@ h3 {
 	color: $white-secondary;
 	margin-bottom: 2rem;
 	@include mq(large) {
+		padding-top: 8px;
 		@include span-columns(2);
 		@include shift(1);
 	}

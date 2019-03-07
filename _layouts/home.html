@@ -2,10 +2,15 @@
 layout: default
 ---
 
+<div class="bg-wrapper">
+  <div class="bg-gradient"></div>
+  <div class="bg-image bg-image--home" style="background: url('https://scontent.xx.fbcdn.net/v/t31.0-8/11952698_10205002141476566_4702735569399884976_o.jpg?oh=2ccb8527dfac7f7996e635b9cc0ad31e&oe=59983F00') no-repeat bottom; background-size: cover;"></div>
+</div>
+
 <section>
   <div class="heading">
-    <h1>I'm Jacob — A digital product designer working in London, UK. I focus on native mobile and responsive web experiences.</h1>
-    <h2>Currently I’m busy designing a <a href="http://tandem.co.uk" target="_blank">new bank</a> and running <a href="http://precisepixels.co.uk" target="_blank">Precise Pixels</a></h2>
+    <h1>I'm Jacob — A Product Design Lead working in London, UK. I focus on native mobile and responsive web experiences.</h1>
+    <h2>Currently I’m busy <a href="https://www.linkedin.com/in/jacobh1992/" target="_blank">reinventing retirement</a> and running <a href="http://precisepixels.co.uk" target="_blank">Precise Pixels</a></h2>
   </div>
 </section>
 
@@ -43,44 +48,17 @@ layout: default
     {% endfor %}
   </ul>
   <div class="home-work-link">
-    <a href="/work" role="button">See more of my work</a>
+    <a href="{{ "/work" | relative_url}}" role="button">See more of my work</a>
   </div>
 </section>
 
 <section>
   <h3>About me</h3>
   <div class="content-p">
-    <p>I design innovative digital products and experiences. My skills span user experience design, user interface and interaction design, design systems, production and front-end development.
-    <p>I'm involved in every step and iteration of the human-centred design process, through discovery, exploration, production and validation.
-    <p>Let's build something together. <a href="">Get in touch.</a></p>
+    <p>I design user-centred digital products and experiences. My skills span user experience design, user interface and interaction design, design systems, production and front-end development.</p>
+    <p>I'm involved in every step and iteration of the human-centred design process, through discovery, exploration, production and validation.</p>
+    <p>Let's build something together. <a href="">Get in touch</a>.</p>
   </div>
 </section>
-
-<!-- <div class="home-cta-wrapper">
-  <section>
-    <div class="home-cta">
-      <div class="home-cta-content">
-        <h3>Let’s build something together.
-        <a href="#" role="button">Get in touch</a></h3>
-      </div>
-    </div>
-  </section>
-</div> -->
-
-
-<!-- <div class="home-cta-wrapper">
-  <section>
-    <div class="home-cta">
-      <div class="home-cta-content">
-        <p class="large">Got an idea for a product? Let’s build something together.</p>
-        <a href="#" role="button">Get in touch</a>
-      </div>
-    </div>
-  </section>
-</div> -->
-
-<!-- <section>
-  <div id="instafeed"></div>
-</section> -->
 
 {{ content }}

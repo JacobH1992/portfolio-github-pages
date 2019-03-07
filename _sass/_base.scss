@@ -5,6 +5,8 @@ $breakpoints: (
   xlarge: 1200px
 );
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,700');
+
 @import "neat/neat";
 @import "mixins";
 @import "colours";
@@ -23,14 +25,15 @@ body {
 	font-size: 100%;
 	line-height: $body-line-height;
 	background: $blue-dark;
-	text-rendering: optimizeLegibility; 
-	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: subpixel-antialiased;
 }
 
 nav {
 	margin-top: 32px;
 	height: 64px;
 	position: relative;
+	z-index: 3;
 	@include mq(medium) {
 		margin-top: 48px;
 	}
@@ -80,6 +83,8 @@ nav {
 header, section, footer, article {
 	width: 90%; // add page margins
 	@include outer-container;
+	position: relative;
+	z-index: 3;
 }
 
 section, footer {
@@ -134,8 +139,8 @@ footer {
 
 .logo span {
 	position: absolute;
-	top: 34px;
-	left: 34px;
+	top: 0px;
+	left: 0px;
 	background-color: rgba(45,156,219,.75);
 	transition: all .3s;
 	&:nth-child(2) {
@@ -181,13 +186,13 @@ footer {
 }
 
 @keyframes rotate-cw {
-	0% { transform: translate(-50%,-50%) rotateZ(0deg); -webkit-transform: translate(-50%,-50%) rotateZ(0deg); }
-	100% { transform: translate(-50%,-50%) rotateZ(360deg); -webkit-transform: translate(-50%,-50%) rotateZ(360deg); }
+	0% { transform: rotateZ(0deg); -webkit-transform: rotateZ(0deg); }
+	100% { transform:rotateZ(360deg); -webkit-transform: rotateZ(360deg); }
 }
 
 @keyframes rotate-ccw {
-	0% { transform: translate(-50%,-50%) rotateZ(0deg); -webkit-transform: translate(-50%,-50%) rotateZ(0deg); }
-	100% { transform: translate(-50%,-50%) rotateZ(-360deg); -webkit-transform: translate(-50%,-50%) rotateZ(-360deg); }
+	0% { transform: rotateZ(0deg); -webkit-transform: rotateZ(0deg); }
+	100% { transform: rotateZ(-360deg); -webkit-transform: rotateZ(-360deg); }
 }
 
 @function randRadius() {
@@ -212,6 +217,16 @@ footer {
 @keyframes border-br {
 	0% { border-bottom-right-radius: randRadius(); }
 	100% { border-bottom-right-radius: randRadius(); }
+}
+
+.cv {
+	margin-top: 0rem;
+	@include span-columns(12);
+	@include mq(large) {
+		@include span-columns(8);
+		@include shift(3);
+		margin-top: -3rem;
+	}
 }
 
 @import "pages/home";

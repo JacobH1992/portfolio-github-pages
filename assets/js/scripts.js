@@ -2,13 +2,18 @@ window.sr = ScrollReveal();
 
 sr.reveal('.revealBottom', { 
 	duration: 600,
-	delay: 200
+	delay: 100,
+	origin: 'bottom',
+	viewFactor: 0.2,
+	scale: 0.98
 });
 
-sr.reveal('.revealTop', { 
-	origin: 'top',
+sr.reveal('.fadeIn', { 
 	duration: 500,
-	delay: 500,
+	delay: 300,
+	distance: '0',
+	viewFactor: 0,
+	scale: 0
 });
 
 sr.reveal('.revealLeft', { 
@@ -17,7 +22,6 @@ sr.reveal('.revealLeft', {
 	distance: '5%',
 	scale: 0
 });
-
 
 // reveal box effect
 
